@@ -1,2 +1,3 @@
-# Atividades-Sistemas-Informacao
-Repositório para as minhas atividades da faculdade.
+# Information-Systems-College
+
+Repository for my college activities.
