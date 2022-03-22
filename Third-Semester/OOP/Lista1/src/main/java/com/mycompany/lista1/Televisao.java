@@ -11,4 +11,15 @@ package com.mycompany.lista1;
  */
 public class Televisao {
     
+    private int canal, volume;
+    
+    public void setCanal(int canal){
+    
+        this.canal = (
+        
+            canal > 0 && canal <= 250
+                ? canal
+                : this.canal
+        );
+    }
 }

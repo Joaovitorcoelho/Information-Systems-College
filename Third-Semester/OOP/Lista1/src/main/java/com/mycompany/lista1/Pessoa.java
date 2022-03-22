@@ -10,16 +10,40 @@ import java.util.*;
 /**
  *
  * @author aluno
+ * @param {int} idade - idade da Pessoa em centímetros
  */
 public class Pessoa {
     
-    private String nome, data_nascimento;
     private double peso, altura;
+    private String nome;
     private int idade;
     
-    private void autalizarIdade(){
+    public void Pessoa(double peso, double altura, String nome, int idade){}
+    
+    public void envelhecer(){
+    
+        this.idade += 1;
         
-        Date data_atual = new Date();
-        
+        crescer(0.5);
+    }
+    
+    public void crescer(double tamanho){
+    
+        this.altura += (
+            
+            this.idade < 21
+                ? tamanho
+                : 0
+        );
+    }
+    
+    public void engordar(double peso){
+    
+        this.peso += peso;
+    }
+    
+    public void emagrecer(double peso){
+    
+        this.peso -= peso;
     }
 }

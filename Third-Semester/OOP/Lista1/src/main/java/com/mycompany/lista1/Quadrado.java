@@ -11,24 +11,24 @@ package com.mycompany.lista1;
  */
 public class Quadrado {
     
-    private int tamanho_lados;
+    private double tamanho_lados;
     
-    public void Quadrado(int novoTamanho){
+    public void Quadrado(double novoTamanho){
     
         setTamanhoLados(novoTamanho);
     }
     
-    public int calcularArea(){
+    public double calcularArea(){
     
-        return this.tamanho_lados^2;
+        return this.tamanho_lados * this.tamanho_lados;
     }
     
-    public void setTamanhoLados(int novoTamanho){
+    public void setTamanhoLados(double novoTamanho){
     
         this.tamanho_lados = novoTamanho;
     }
     
-    public int getTamanhoLados(){
+    public double getTamanhoLados(){
     
         return this.tamanho_lados;
     }

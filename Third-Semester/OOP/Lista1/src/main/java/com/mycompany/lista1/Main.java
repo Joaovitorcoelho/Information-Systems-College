@@ -15,8 +15,6 @@ public class Main {
     
     public static void main(String[] args) {
     
-        
-        Date d1 = new Date("DD/MM/YYYY");
-        System.out.println("Current date is " + d1);
+
     }
 }
