@@ -21,10 +21,10 @@ public class Pessoa {
     public void Pessoa(double peso, double altura, String nome, int idade){}
     
     public void envelhecer(){
-    
-        this.idade += 1;
         
         crescer(0.5);
+        
+        this.idade += 1;
     }
     
     public void crescer(double tamanho){
