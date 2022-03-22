@@ -17,7 +17,7 @@ public class Televisao {
     
         this.canal = (
         
-            canal > 0 && canal <= 250
+            canal >= 0 && canal <= 250
                 ? canal
                 : this.canal
         );
