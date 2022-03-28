@@ -14,7 +14,7 @@ public class Bola {
     private int circunferencia;
     private String cor, material;
     
-    public void Bola(String cor, String material, int circunferencia){
+    public Bola(String cor, String material, int circunferencia){
     
         this.cor = cor;
         this.material = material;
