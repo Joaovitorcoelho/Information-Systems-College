@@ -13,9 +13,9 @@ public class Quadrado {
     
     private double tamanho_lados;
     
-    public void Quadrado(double novoTamanho){
+    public Quadrado(double tamanho){
     
-        setTamanhoLados(novoTamanho);
+        setTamanhoLados(tamanho);
     }
     
     public double calcularArea(){
