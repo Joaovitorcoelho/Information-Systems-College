@@ -13,7 +13,7 @@ public class Televisao {
     
     private int canal, volume;
     
-    public void Televisao(){
+    public Televisao(){
     
         this.canal = 1;
         this.volume = 50;
