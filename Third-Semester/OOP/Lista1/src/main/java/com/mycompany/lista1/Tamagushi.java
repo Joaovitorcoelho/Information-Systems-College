@@ -13,7 +13,7 @@ public class Tamagushi {
     private int fome, saude, idade, humor;
     private String nome;
     
-    public void Tamagushi(String nome){
+    public Tamagushi(String nome){
     
         setNome(nome);
         
