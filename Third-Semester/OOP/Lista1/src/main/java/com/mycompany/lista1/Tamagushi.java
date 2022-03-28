@@ -41,8 +41,6 @@ public class Tamagushi {
                 ? fome
                 : this.fome
         );
-        
-        calcularHumor();
     }
     
     public void setSaude(int saude){
@@ -53,8 +51,6 @@ public class Tamagushi {
                 ? saude
                 : this.saude
         );
-        
-        calcularHumor();
     }
     
     public void setIdade(int idade){
@@ -89,6 +85,8 @@ public class Tamagushi {
     
     public int getHumor(){
     
+        calcularHumor();
+        
         return this.humor;
     }
 }
