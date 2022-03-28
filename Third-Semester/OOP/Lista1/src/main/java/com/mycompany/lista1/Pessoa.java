@@ -5,8 +5,6 @@
  */
 package com.mycompany.lista1;
 
-import java.util.*;
-
 /**
  *
  * @author aluno
@@ -18,7 +16,13 @@ public class Pessoa {
     private String nome;
     private int idade;
     
-    public void Pessoa(double peso, double altura, String nome, int idade){}
+    public Pessoa(double peso, double altura, String nome, int idade){
+    
+        this.peso = peso;
+        this.altura = altura;
+        this.nome = nome;
+        this.idade = idade;
+    }
     
     public void envelhecer(){
     
