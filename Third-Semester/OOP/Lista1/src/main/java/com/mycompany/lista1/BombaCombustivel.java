@@ -13,7 +13,7 @@ public class BombaCombustivel {
     String tipo_combustivel;
     double valor_litro, quantidade_combustivel;
     
-    public void BombaCombustivel(String tipo_combustivel, double valor_litro, double quantidade_combustivel){
+    public BombaCombustivel(String tipo_combustivel, double valor_litro, double quantidade_combustivel){
     
         this.tipo_combustivel = tipo_combustivel;
         this.valor_litro = valor_litro > 0 ? valor_litro : 0;
