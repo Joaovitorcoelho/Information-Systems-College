@@ -19,8 +19,23 @@ public class Empregado {
         this.salario += (this.salario*(percentual/100)) + beneficio;
     }
     
+    public String getNome() {
+    	
+    	return this.nome;
+    }
+    
+    public String getEmail() {
+    	
+    	return this.email;
+    }
+    
     public float getSalario(){
     
         return this.salario;
+    }
+
+    public int getCodigo() {
+    	
+    	return this.codigo;
     }
 }
