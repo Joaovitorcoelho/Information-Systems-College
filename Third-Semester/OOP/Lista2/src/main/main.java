@@ -5,6 +5,8 @@ import exec1.Estagiario;
 import exec2.Normal;
 import exec2.CamaroteSuperior;
 import exec2.CamaroteInferior;
+import exec3.Administrativo;
+import exec3.Tecnico;
 
 public class main {
 
@@ -39,5 +41,13 @@ public class main {
 		
 		System.out.println(obj_camarote_inferior.getValor());
 		System.out.println(obj_camarote_inferior.getLocalizacao());
+		
+		////////////////////////
+		
+		// Administrativo
+		Administrativo obj_administrativo = new Administrativo(false, 100.00, 123, "Arthemis", "toda_gatinha@gmail.com", "Rua do bobos número 0", "(47) 99999-9999");
+		
+		System.out.println(obj_administrativo.getTurno());
+		System.out.println(obj_administrativo.getAdicionalNoturno());
 	}
 }
