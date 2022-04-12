@@ -14,7 +14,7 @@ public class Empregado {
         this.salario = sal;
     }
     
-    public void aumentoSalarial(int percentual, float beneficio){
+    public void aumentoSalarial(float percentual, float beneficio){
         
         this.salario += (this.salario*(percentual/100)) + beneficio;
     }

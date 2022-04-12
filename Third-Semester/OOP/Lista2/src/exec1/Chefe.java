@@ -10,7 +10,7 @@ public class Chefe extends Empregado {
         this.beneficio = ben;
     }
     
-    public void aumentoSalarial(int percentual){
+    public void aumentoSalarial(float percentual){
     
         super.aumentoSalarial(percentual, this.beneficio);
     }

@@ -11,7 +11,6 @@ public class CamaroteSuperior extends VIP {
 		this.valorCamaroteSuperior = super.getValor() + adicional;
 	}
 	
-	@Override
 	public double getValor() {
 		
 		return this.valorCamaroteSuperior;
