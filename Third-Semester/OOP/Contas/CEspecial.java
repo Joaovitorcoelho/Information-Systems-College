@@ -11,9 +11,9 @@ class CEspecial extends CCorrente {
   @Override
   public void debitar(double valor) {
     
-    if (valor <=(super.get_saldo() + this.limite)) {
+    if (valor <= (super.getSaldo() + this.limite)) {
     
-      super.set_saldo(super.get_saldo() - valor);
+      super.setSaldo(super.getSaldo() - valor);
     }
     else {
       
