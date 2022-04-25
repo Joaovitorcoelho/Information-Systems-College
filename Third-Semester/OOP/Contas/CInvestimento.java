@@ -5,7 +5,7 @@ public class CInvestimento extends CCorrente {
     private int dia_investimento;
     private int periodo;
     
-    public CInvestimento(int num, float sal, String cli, int dinv, int per) {
+    public CInvestimento(int num, float sal, Clientes cli, int dinv, int per) {
         
         super(num, sal, cli);
         this.dia_investimento = dinv;
