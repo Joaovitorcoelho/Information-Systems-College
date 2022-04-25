@@ -4,7 +4,7 @@ class CCorrente {
     private float saldo;
     private String cliente;
     
-    public CCorrente (int num, float sal, Cliente cli){
+    public CCorrente (int num, float sal, Clientes cli){
  
         this.numero = num;
         this.saldo = sal;
