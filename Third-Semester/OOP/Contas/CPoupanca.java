@@ -2,7 +2,7 @@ public class CPoupanca extends CCorrente {
 
     private float saldo_minimo;
 
-    public CPoupanca(int num, float sal, String cli, float salmin) {
+    public CPoupanca(int num, float sal, Clientes cli, float salmin) {
         
         super(num, sal, cli);
         this.saldo_minimo = salmin;
